@@ -3,8 +3,7 @@ import { getRedirectResult } from 'firebase/auth';
 import { 
      auth,
      signInWithGooglePopup,
-     createUserDocumentFromAuth,
-     createUserWithEmailAndPassword
+     createUserDocumentFromAuth
      } 
     from '../../utils/firebase/firebase.utils';
 
